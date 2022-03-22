@@ -17,12 +17,14 @@ Continue = input("Was your guess right?\Enter 'Y' for yes and 'N' for no\n").upp
 while Continue == 'N':
     
     # get all wrong letters
-    greys=str.upper(input('Type grey letters without spaces \nHit enter if none: '))
+    greys=str.upper(input('''Type exclusively grey letters.
+If you typed two O's and only one is greyed out do not include an O.
+Hit enter if none: '''))
     
     
     # get yellow letters
     yellows = str.upper(input('Type yellow letters with corresponding index.\nEg.S1D3 implies S is wrong\
-    in index 1 and D is wrong in index 3.\nHit enter if none: '))
+in index 1 and D is wrong in index 3.\nHit enter if none: '))
     
     yellow_letters=[]
     yellow_index=[]
