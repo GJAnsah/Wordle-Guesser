@@ -12,8 +12,10 @@ import numpy as np
 all_words = [x.upper() for x in np.loadtxt("words.txt", dtype = str)]
 all_words.sort()
 
-Continue = input("Was your guess right?\Enter 'Y' for yes and 'N' for no\n").upper()
-
+Continue = input("Was your guess right?\nEnter 'Y' for yes and 'N' for no\n").upper()
+if Continue == "Y":
+    print("\nCONGRATS!!! 🎉")
+    
 while Continue == 'N':
     
     # get all wrong letters
@@ -82,4 +84,6 @@ in index 1 and D is correct in index 3.\nHit enter if none: '))
     #show available words to make next guess
     print(all_words)
     input('Press enter after making your guess')
-    Continue = input("Was your guess right?\Enter 'Y' for yes and 'N' for no\n").upper()
+    Continue = input("Was your guess right?\nEnter 'Y' for yes and 'N' for no\n").upper()
+    if Continue == "Y":
+        print("\nCONGRATS!!! 🎉")
