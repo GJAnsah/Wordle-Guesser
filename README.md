@@ -1,9 +1,18 @@
-# Wordle-Guesser
-A program that eliminates words based on guesses to reduce the number of words to guess from
+# 🟩 Wordle Guesser
 
+A Python tool that eliminates words based on your guesses to narrow down possible Wordle answers.
 
-Read all about Wordle [here](https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html?smtyp=cur&smid=tw-nytimes) or [here](https://www.cnet.com/culture/internet/wordle-everything-to-know-about-the-word-game-gone-viral/).
-or on the website [here](https://www.nytimes.com/games/wordle/index.html) while you play the game.
+## ⚙️ How It Works
 
+Enter your guesses and feedback (which letters are correct, misplaced, or wrong), and the program filters the word list to show remaining possibilities.
 
-List of 5 letter words from [Stanford](https://www-cs-faculty.stanford.edu/~knuth/sgb-words.txt).
+## 🚀 Usage
+```bash
+python3 "Wordle guesser.py"
+```
+
+## 📚 Resources
+
+- [What is Wordle?](https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html)
+- [Play Wordle](https://www.nytimes.com/games/wordle/index.html)
+- [Word list source (Stanford)](https://www-cs-faculty.stanford.edu/~knuth/sgb-words.txt)
